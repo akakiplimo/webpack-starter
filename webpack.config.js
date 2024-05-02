@@ -1,4 +1,5 @@
 const path = require("path");
+const HTMLWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -17,4 +18,11 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new HTMLWebpackPlugin({
+      title: "Dad Joke App",
+      filename: "index.html",
+      template: 'src/template.html'
+    }),
+  ],
 };
