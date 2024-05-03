@@ -49,6 +49,7 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       title: "Dad Joke App",
+      favicon: "./images/joker.ico",
       filename: "index.html",
       template: 'src/template.html'
     }),
