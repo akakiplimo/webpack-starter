@@ -2,6 +2,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/generateJoke.js":
+/*!*****************************!*\
+  !*** ./src/generateJoke.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function generateJoke() {
+  return "Why don't scientists trust atoms? Because they make up everything!";
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateJoke);
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
@@ -526,24 +543,6 @@ function styleTagTransform(css, styleElement) {
 }
 module.exports = styleTagTransform;
 
-/***/ }),
-
-/***/ "./src/generateJoke.js":
-/*!*****************************!*\
-  !*** ./src/generateJoke.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-function generateJoke() {
-    return "Why don't scientists trust atoms? Because they make up everything!"
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateJoke);
-
 /***/ })
 
 /******/ 	});
@@ -630,10 +629,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
 
 
-
-console.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__["default"])())
+console.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__["default"])());
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle.6ca3f96ae7ff1500fd4a.js.map
+//# sourceMappingURL=bundle.e1fcd57a18f8ac08f7a1.js.map
